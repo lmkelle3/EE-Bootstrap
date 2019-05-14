@@ -2,6 +2,7 @@
 
 .navbar {
   background-color: #f8dceb;
+  font-family: cursive;
 }
 
 .nav-pills {
@@ -10,4 +11,5 @@
 
 .nav-link {
   color: gray;
+  font-family: cursive;
 }
