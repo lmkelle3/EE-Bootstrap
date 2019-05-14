@@ -1,61 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="Ellie_main.css" />
-    <title>Entirely Ellie</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Top Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Navigation</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Shirts</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-        </form>
-      </div>
-    </nav>
-
-    <!-- Header placeholder -->
-    <div class="container d-flex flex-row mt-2">
-      <div class="row-3">
-        <!-- First Carousel -->
-        <div class="col-3">
+<!-- First Carousel -->
+      <div class="row-2">
+        <div class="col-4">
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
@@ -78,13 +23,6 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img
-                  src="/SHIRTS/newshirt1.JPG"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
                 <img src="/SHIRTS/Shirt1.png" class="d-block w-100" alt="..." />
               </div>
               <div class="carousel-item">
@@ -138,12 +76,12 @@
             </a>
           </div>
         </div>
-        <!-- Image -->
-        <div class="col-6">
-          <img src="LOGOS/EllieLogo copy 2.png" class="text-center img-fluid" />
-        </div>
+
+
+
+
         <!-- Second Carousel -->
-        <div class="col-3">
+        <div class="col-2">
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
@@ -166,13 +104,6 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img
-                  src="/SHIRTS/newshirt2.JPG"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
                 <img src="/BABES/babes1.png" class="d-block w-100" alt="..." />
               </div>
               <div class="carousel-item">
@@ -242,111 +173,3 @@
             </a>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- Side Nav -->
-    <div class="row">
-      <div class="col-3">
-        <div
-          class="nav flex-column nav-pills"
-          id="v-pills-tab"
-          role="tablist"
-          aria-orientation="vertical"
-        >
-          <a
-            class="nav-link active"
-            id="v-pills-home-tab"
-            data-toggle="pill"
-            href="#v-pills-home"
-            role="tab"
-            aria-controls="v-pills-home"
-            aria-selected="true"
-            >Home</a
-          >
-          <a
-            class="nav-link"
-            id="v-pills-profile-tab"
-            data-toggle="pill"
-            href="#v-pills-profile"
-            role="tab"
-            aria-controls="v-pills-profile"
-            aria-selected="false"
-            >Profile</a
-          >
-          <a
-            class="nav-link"
-            id="v-pills-messages-tab"
-            data-toggle="pill"
-            href="#v-pills-messages"
-            role="tab"
-            aria-controls="v-pills-messages"
-            aria-selected="false"
-            >Messages</a
-          >
-          <a
-            class="nav-link"
-            id="v-pills-settings-tab"
-            data-toggle="pill"
-            href="#v-pills-settings"
-            role="tab"
-            aria-controls="v-pills-settings"
-            aria-selected="false"
-            >Settings</a
-          >
-        </div>
-      </div>
-      <div class="col-9">
-        <div class="tab-content" id="v-pills-tabContent">
-          <div
-            class="tab-pane fade show active"
-            id="v-pills-home"
-            role="tabpanel"
-            aria-labelledby="v-pills-home-tab"
-          >
-            ...
-          </div>
-          <div
-            class="tab-pane fade"
-            id="v-pills-profile"
-            role="tabpanel"
-            aria-labelledby="v-pills-profile-tab"
-          >
-            ...
-          </div>
-          <div
-            class="tab-pane fade"
-            id="v-pills-messages"
-            role="tabpanel"
-            aria-labelledby="v-pills-messages-tab"
-          >
-            ...
-          </div>
-          <div
-            class="tab-pane fade"
-            id="v-pills-settings"
-            role="tabpanel"
-            aria-labelledby="v-pills-settings-tab"
-          >
-            ...
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Page Nav -->
-    <nav aria-label="Page navigation example">
-      <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
-          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-            <<
-          </a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#"> >> </a>
-        </li>
-      </ul>
-    </nav>
-  </body>
-</html>
