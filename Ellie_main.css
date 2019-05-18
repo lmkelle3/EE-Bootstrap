@@ -1,12 +1,13 @@
 /* Navbar Styles */
 
 .navbar {
-  background-color: #f8dceb;
+  background-color: white;
   font-family: cursive;
 }
 
-.nav-pills {
+.container-flex {
   background-color: #f8dceb;
+  width: 100%;
 }
 
 .nav-link {
@@ -14,4 +15,57 @@
   font-family: cursive;
 }
 
-/* Header Styles */
+/* Insta Nav */
+#v-pills-home-tab {
+  background-color: #f8dceb;
+  color: gray;
+  font-size: 2;
+}
+
+.insta-logo {
+  width: 70px;
+  height: 70px;
+}
+
+/* Table Styles */
+
+/* .table-image {
+  width: 50%;
+  height: 50%;
+} */
+
+/* Carousel Stlyes */
+
+/* Body Styles */
+
+.jumbotron {
+  background-color: white;
+  font-family: cursive;
+  color: #de87b5;
+}
+
+.btn {
+  font-family: sans-serif;
+}
+
+/* Card Styles */
+
+/* Footer Styles */
+
+.foot-style {
+  background-color: #f8dceb;
+  font-family: cursive;
+}
+
+.head {
+  font-family: sans-serif;
+}
+
+.synopsis {
+  font-family: cursive;
+}
+
+.product-links {
+  font-family: cursive;
+  color: black;
+}
