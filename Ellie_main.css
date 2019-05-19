@@ -15,8 +15,7 @@
 }
 
 /* Insta Nav */
-#v-pills-home-tab {
-  background-color: #f8dceb;
+.follow {
   color: gray;
   font-size: 2;
 }
@@ -48,6 +47,45 @@
 }
 
 /* Card Styles */
+/* .c-style {
+  position: relative;
+  width: 50%;
+} */
+
+.c-image {
+  opacity: 1;
+  display: block;
+  /* width: 100%;
+  height: auto; */
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  /* margin: 10px; */
+}
+
+.img-overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.c-style:hover .c-image {
+  opacity: 0.3;
+}
+
+.c-style:hover .img-overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 25pt;
+  font-family: sans-serif;
+  padding: 16px 32px;
+}
 
 /* Footer Styles */
 
@@ -61,10 +99,10 @@
 }
 
 .synopsis {
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .product-links {
-  font-family: cursive;
+  font-family: sans-serif;
   color: black;
 }
